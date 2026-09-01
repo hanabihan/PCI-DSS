@@ -318,8 +318,21 @@ Ngược lại, nếu không có quy trình hoặc việc bỏ lỡ lịch là d
 
 ## VIII.	Phương pháp triển khai và xác thực PCI DSS.
 PCI DSS có 2 cách tiếp cận để triển khai và đánh giá yêu cầu:
+1. Phương pháp xác định (Defined Approach).
+- Thực hiện các yêu cầu và thủ tục kiểm tra được quy định sẵn trong PCI DSS.
+- Doanh nghiệp triển khai các biện pháp bảo mật đúng theo yêu cầu của tiêu chuẩn.
+- Assessor sẽ kiểm tra theo các thủ tục đã được xác định để xác nhận yêu cầu đã được đáp ứng.
+- Nếu không thể đáp ứng một yêu cầu do ràng buộc kỹ thuật hoặc kinh doanh hợp lý, doanh nghiệp có thể sử dụng Compensating Controls (biện pháp kiểm soát bù trừ).
+- Biện pháp bù trừ phải giảm thiểu rủi ro liên tương đương với yêu cầu ban đầu, phải được ghi nhận và xem xét hằng năm, được assessor xác thực.
 
-IX.	
+2. Phương pháp tùy chỉnh (Customized Approach).
+- Tập trung vào mục tiêu bảo mật của từng yêu cầu PCI DSS.
+- Doanh nghiệp có thể tự thiết kế các biện pháp kiểm soát khác với cách quy định sẵn, miễn là vẫn đạt được mục tiêu bảo mật.
+- Assessor phải xây dựng hoặc áp dụng các thủ tục kiểm tra phù hợp để xác minh biện pháp đó đáp ứng mức độ bảo mật.
+- Phù hợp với các tổ chức có hệ thống quản lý rủi ro tốt và trưởng thành.
+- Cách này linh hoạt hơn nhưng yêu cầu nhiều tài liệu, công sức và bằng chứng xác thực hơn.
+
+## IX. Bảo vệ thông tin về tình trạng an ninh của một tổ chức
 
 
 
