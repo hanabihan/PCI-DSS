@@ -332,7 +332,27 @@ PCI DSS có 2 cách tiếp cận để triển khai và đánh giá yêu cầu:
 - Phù hợp với các tổ chức có hệ thống quản lý rủi ro tốt và trưởng thành.
 - Cách này linh hoạt hơn nhưng yêu cầu nhiều tài liệu, công sức và bằng chứng xác thực hơn.
 
-## IX. Bảo vệ thông tin về tình trạng an ninh của một tổ chức
+## IX. Bảo vệ thông tin về tình trạng an ninh của một tổ chức.
+- Các tài liệu liên quan đến PCI DSS có thể chứa thông tin nhạy cảm và cần được bảo vệ:
+  - Sơ đồ mạng, luồng dữ liệu, cấu hình và quy tắc bảo mật.
+  - Tiêu chuẩn cấu hình hệ thống.
+  - Phương pháp và giao thức mã hóa/quản lý khóa.
+- Doanh nghiệp phải bảo vệ các tài liệu này theo chính sách bảo mật của mình.
+- TPSP phải cung cấp cho khách hàng:
+  - Thông tin để theo dõi tình trạng tuân thủ PCI DSS.
+  - Bằng chứng cho thấy TPSP đáp ứng các yêu cầu PCI DSS liên quan.
+- QSA Company phải có quy trình bảo vệ thông tin bí mật/nhạy cảm, đảm bảo bảo mật, riêng tư và ngăn truy cập trái phép.
 
+## X. Các phương pháp kiểm tra đáp ứng yêu cầu PCI DSS.
+- Có 3 phương pháp kiểm tra chính:
+  - Examine (Kiểm tra): Đánh giá bằng chứng như tài liệu, screenshot, file cấu hình, audit log, data file.
+  - Observe (Quan sát): Quan sát trực tiếp hoạt động của nhân viên, hệ thống hoặc các biện pháp kiểm soát vật lý.
+  - Interview (Phỏng vấn): Trao đổi với nhân viên để xác nhận hoạt động có được thực hiện và họ có hiểu quy trình hay không.
+- Mục đích: Giúp Assessor xác định doanh nghiệp có đáp ứng yêu cầu PCI DSS hay không và ghi nhận phương pháp kiểm tra + kết quả kiểm tra trong báo cáo đánh giá.
+
+## XI. Hướng dẫn và nội dung báo cáo về việc tuân thủ.
+- Report on Compliance (ROC) phải được lập theo mẫu PCI DSS ROC Template do PCI SSC cung cấp.
+- Việc có phải tuân thủ hoặc đánh giá PCI DSS hay không phụ thuộc vào tổ chức quản lý chương trình tuân thủ (ví dụ: payment brands, acquirers).
+- Doanh nghiệp cần liên hệ các tổ chức này để biết yêu cầu về báo cáo và hướng dẫn thực hiện.
 
 
