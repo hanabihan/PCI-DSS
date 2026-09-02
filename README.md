@@ -355,4 +355,23 @@ PCI DSS có 2 cách tiếp cận để triển khai và đánh giá yêu cầu:
 - Việc có phải tuân thủ hoặc đánh giá PCI DSS hay không phụ thuộc vào tổ chức quản lý chương trình tuân thủ (ví dụ: payment brands, acquirers).
 - Doanh nghiệp cần liên hệ các tổ chức này để biết yêu cầu về báo cáo và hướng dẫn thực hiện.
 
+## XII. Quy trình đánh giá PCI DSS.
+1. Xác nhận phạm vi đánh giá.
+2. Thực hiện đánh giá PCI DSS đối với môi trường thuộc phạm vi.
+3. Hoàn thành báo cáo đánh giá theo hướng dẫn PCI DSS.
+4. Hoàn thành giấy chứng nhận tuân thủ (Attestation of Compliance - AOC) cho nhà cung cấp hoặc người bán nếu áp dụng.
+5. Nộp báo cáo, AOC và các tài liệu được yêu cầu (ví dụ ASV scan report) cho tổ chức yêu cầu.
+6. Nếu có yêu cầu chưa đáp ứng, thực hiện khắc phục và cung cấp báo cáo cập nhật.
 
+## XIII. Tài liệu tham khảo, bổ sung.
+Các tài liệu của những tổ chức này chỉ mang tính tham khảo, không thay thế hoặc mở rộng thêm các yêu cầu PCI DSS.
+- ANSI: American National Standards Institute
+- CIS: Center for Internet Security
+- CSA: Cloud Security Alliance
+- ENISA: European Union Agency for Cybersecurity
+- FIDO Alliance
+- ISO: International Organization for Standardization
+- NCSC: UK National Cyber Security Centre
+- NIST: National Institute of Standards and Technology
+- OWASP: Open Web Application Security Project
+- SAFECode: Software Assurance Forum for Excellence in Code
