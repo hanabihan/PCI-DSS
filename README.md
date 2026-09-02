@@ -375,3 +375,6 @@ Các tài liệu của những tổ chức này chỉ mang tính tham khảo, kh
 - NIST: National Institute of Standards and Technology
 - OWASP: Open Web Application Security Project
 - SAFECode: Software Assurance Forum for Excellence in Code
+
+## XIV. PCI DSS Versions 
+<img width="740" height="232" alt="image" src="https://github.com/user-attachments/assets/5557a67d-bc89-4388-bd76-b0a929c8f508" />
