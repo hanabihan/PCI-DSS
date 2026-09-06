@@ -378,3 +378,30 @@ Các tài liệu của những tổ chức này chỉ mang tính tham khảo, kh
 
 ## XIV. PCI DSS Versions 
 <img width="740" height="232" alt="image" src="https://github.com/user-attachments/assets/5557a67d-bc89-4388-bd76-b0a929c8f508" />
+
+## XV. Yêu cầu và quy trình kiểm thử chi tiết của PCI DSS.
+Các thành phần của 1 yêu cầu:
+1. Requirement Description: Mô tả yêu cầu.
+2.  Defined Approach Requirements: Cách đáp ứng PCI DSS theo phương pháp tiêu chuẩn được PCI DSS quy định.
+3.  Defined Approach Testing Procedures: Kiểm tra xem tổ chức có đáp ứng yêu cầu hay không.
+  - Examine: Kiểm tra tài liệu, chính sách, cấu hình, bằng chứng.
+  - Observe: Quan sát quy trình thực tế.
+  - Interview: Phỏng vấn nhân viên.
+  - Kiểm tra các bằng chứng liên quan. 
+5.  Customized Approach Objective: Mục tiêu hoặc kết quả dự kiến mà yêu cầu muốn đạt được. Customized Approach cho phép tổ chức sử dụng một phương pháp khác với Defined Approach để đáp ứng yêu cầu nhưng không thay thế Defined Approach.
+6. Applicability Notes: Áp dụng cho cả Defined Approach và Customized Approach, là một phần không thể tách rời của PCI DSS và phải được xem xét đầy đủ trong quá trình đánh giá.
+7. Guidance: Cung cấp thông tin giúp tổ chức hiểu làm thế nào để đáp ứng yêu cầu, không bắt buộc phải tuân theo, không phải là yêu cầu.
+8. Purpose: Mô tả mục tiêu, lợi ích và mối đe dọa cần tránh.
+9. Good Practice: Đưa ra những thực hành tốt mà tổ chức có thể cân nhắc khi đáp ứng yêu cầu, không phải yêu cầu bắt buộc.
+10. Definitions: Giải thích các thuật ngữ có thể cần thiết để hiểu yêu cầu.
+11. Examples: Các ví dụ mô tả các cách thức để đáp ứng 1 yêu cầu.
+12. Further Information: Cung cấp các tài liệu bên ngoài có liên quan để tìm hiểu thêm hoặc hỗ trợ triển khai yêu cầu.
+
+### Các yêu cầu bổ sung dành cho nhà cung cấp dịch vụ (Addition Requirements).
+1 số yêu cầu của PCI DSS chỉ áp dụng khi tổ chức được đánh giá là Service Provider. Service Provider không chỉ cần đáp ứng các yêu cầu thông thường, mà còn phải đáp ứng các Additional Requirements dành riêng cho Service Provider.
+### Khuyến nghị cho tất cả tổ chức.
+Các yêu cầu được đánh dấu "Additional requirement for service providers only" mặc dù chỉ bắt buộc đối với Service Provider, nhưng PCI DSS cũng khuyến nghị tất cả các tổ chức khác xem xét áp dụng như Best Practice.
+### Phụ lục với các yêu cầu bổ sung về PCI DSS dành cho các loại hình doanh nghiệp khác nhau.
+Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers.
+Appendix A2: Additional PCI DSS Requirements for Entities using SSL/Early TLS for Card-Present POS POI Terminal Connections.
+Appendix A3: Designated Entities Supplemental Validation (DESV).
