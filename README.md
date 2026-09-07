@@ -405,3 +405,41 @@ Các yêu cầu được đánh dấu "Additional requirement for service provid
 Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers.
 Appendix A2: Additional PCI DSS Requirements for Entities using SSL/Early TLS for Card-Present POS POI Terminal Connections.
 Appendix A3: Designated Entities Supplemental Validation (DESV).
+### Xây dựng và duy trì mạng lưới và hệ thống an toàn.
+#### 1. Cài đặt và duy trì các biện pháp kiểm soát an ninh mạng (Network Security Controls).
+- Network security controls (NSCs) chẳng hạn như firewalls và các công nghệ bảo mật mạng khác, là những điểm thực thi chính sách mạng (network policy enforcement points). NSCs thường kiểm soát network traffic giữa 2 hoặc nhiều phân đoạn mạng hoặc subnets, dựa trên các policies/rules được định nghĩa trước. Thông thường, NSCs được đặt giữa các môi trường có mức độ bảo mật hoặc mức độ tin cậy khác nhau. Policy enforcement NSC thường hoạt động ở layer 3 của OSI (Network layer).
+- Hiện nay NSC có thể được cung cấp bởi nhiều công nghệ khác nhau, ví dụ:
+  - Physical firewall.
+  - Virtual network devices.
+  - Cloud access controls.
+  - Virtualization/container systems.
+  - Các software-defined networking technologies.
+- NSCs đóng vai trò quan trọng trong việc bảo vệ CDE.
+- NSCs cung cấp một cơ chế bảo vệ quan trọng cho bất kỳ network nào.
+- Untrusted Network có thể bao gồm:
+  - Internet.
+  - Business-to-business connections.
+  - Wireless networks.
+  - Cellular/carrier networks.
+  - Third-party networks.
+  - Các nguồn bên ngoài khác.
+- 1 corporate network không nhất thiết tự động được xem là trusted network. Nếu network đó không nằm trong phạm vi của PCI DSS, không được đánh giá, chưa xác minh được các biện pháp kiểm soát an ninh thì nó được xem là untrusted network.
+
+**1.1. Các quy trình và cơ chế để cài đặt và duy trì các biện pháp kiểm soát an ninh mạng được xác định và hiểu rõ.**
+
+**_Defined Approach Requirements:_**
+
+1.1.1. Chính sách bảo mật và quy trình vận hành.
+Tất cả chính sách bảo mật và quy trình vận hành được xác định trong requirement 1 phải:
+- Được tài liệu hóa.
+- Được cập nhật.
+- Đang được áp dụng thực tế.
+- Được tất cả các bên liên quan biết và hiểu.
+
+**_Customized Approach Objective_**
+
+Các kỳ vọng, biện pháp kiểm soát và giám sát để thực hiện Requirement 1 phải được xác định, được hiểu rõ và tuân thủ bởi các bên liên quan. Các hoạt động hỗ trợ có thể được lặp lại, được áp dụng nhất quán và phù hợp với ý định của bên quản lý.
+
+**_Defined Approach Testing Procedures_**
+
+Người đánh giá kiểm tra tài liệu và phỏng vấn nhân sự
