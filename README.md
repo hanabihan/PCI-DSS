@@ -429,7 +429,8 @@ Appendix A3: Designated Entities Supplemental Validation (DESV).
 
 **_Defined Approach Requirements:_**
 
-1.1.1. Chính sách bảo mật và quy trình vận hành.
+**1.1.1. Chính sách bảo mật và quy trình vận hành.**
+
 Tất cả chính sách bảo mật và quy trình vận hành được xác định trong requirement 1 phải:
 - Được tài liệu hóa.
 - Được cập nhật.
@@ -442,4 +443,24 @@ Các kỳ vọng, biện pháp kiểm soát và giám sát để thực hiện R
 
 **_Defined Approach Testing Procedures_**
 
-Người đánh giá kiểm tra tài liệu và phỏng vấn nhân sự
+Người đánh giá kiểm tra tài liệu và phỏng vấn nhân sự để xác minh policies và operational procedures của Requirement 1 được quản lý phù hợp với các yêu cầu trên.
+
+**_Purpose_**
+
+Requirement 1.1.1 nhằm đảm bảo các policies và procedures trong Requirement 1 được Quản lý hiệu quả, duy trì đúng cách, tài liệu hóa và phổ biến đến các bên liên quan. Không chỉ cần có policy/procedure, mà phải đảm bảo chúng được quản lý và sử dụng thực tế.
+
+**_Definitions_**
+
+- Xác định mục tiêu bảo mật và nguyên tắc bảo mật.
+- Quy trình vận hành: 
+  - Mô tả cách thực hiện các hoạt động.
+  - Xác định các điều khiển, phương pháp và quy trình.
+  - Đảm bảo kết quả được thực hiện tối ưu và phù hợp với mục tiêu của chính sách.
+
+**1.1.2. Roles and Responsibilities.**
+
+Vai trò và trách nhiệm phải được tài liệu hóa, được phân công và được hiểu rõ.
+
+_**Customized Approach Objective**_
+
+Phân bổ bổ sung các trách nhiệm hàng ngày đối với các hoạt động của Requirement 1. Nhân sự phải chịu trách nhiệm về việc vận hành thành công và liên tục các Requirement.
