@@ -464,3 +464,57 @@ Vai trò và trách nhiệm phải được tài liệu hóa, được phân cô
 _**Customized Approach Objective**_
 
 Phân bổ bổ sung các trách nhiệm hàng ngày đối với các hoạt động của Requirement 1. Nhân sự phải chịu trách nhiệm về việc vận hành thành công và liên tục các Requirement.
+
+**_Defined Approach Testing Procedures_**
+
+1.1.2.a: Kiểm tra tài liệu để xác minh vai trò và trách nhiệm đã được ghi chép và phân công.
+1.1.2.b: Phỏng vấn những người chịu trách nhiệm thực hiện các hoạt động trong Requirement 1 để xác minh họ hiểu vai trò và trách nhiệm được giao.
+
+**_Purpose_**
+
+Nếu phân công không rõ thì nhân sự không biết mình phải làm gì và các hoạt động quan trọng có thể bị bỏ sót.
+
+**_Good Practice_**
+
+- Vai trò và trách nhiệm có thể được ghi chép trong các chính sách và quy trình hoặc được lưu giữ trong các tài liệu riêng biệt.
+- Nên yêu cầu nhân viên xác định họ đã nhận thức và hiểu trách nhiệm.
+- Có thể sử dụng RACI Matrix.
+
+**1.2. Network security controls (NSCs) are configured and maintained.**
+
+**1.2.1. Configuration Standards for NSC Rulesets**
+
+Các tiêu chuẩn cấu hình cho bộ quy tắc NSC phải:
+- Được định nghĩa.
+- Được triển khai.
+- Được bảo trì.
+
+**_Customized Approach Objective_**
+
+Cách NSC được cấu hình và vận hành phải được xác định và áp dụng nhất quán.
+
+**_Defined Approach Testing Procedures _**
+
+1.2.1.a: Kiểm tra các tiêu chuẩn cấu hình để xác minh các tiêu chuẩn đáp ứng Requirement 1.2.1.
+1.2.1.b Kiểm tra các cài đặt cấu hình cho các bộ quy tắc NSC để xác minh chúng tôi được phát triển đúng theo tiêu chuẩn cấu hình.
+
+**_Purpose_**
+
+Việc áp dụng các tiêu chuẩn cấu hình giúp NSC được cấu hình và quản lý đúng cách để thực hiện các chức năng bảo mật của chúng.
+
+**_Good Practice_**
+
+Các tiêu chuẩn này thường quy định:
+- Protocol được phép sử dụng.
+- Port được phép sử dụng.
+- Các yêu cầu cấu hình cụ thể được chấp nhận.
+Có thể quy định những gì không được phép hoặc không được chấp nhận trong network.
+
+**_Definitions_**
+- NSC: Thành phần quan trọng của kiến ​​trúc mạng, thường được đặt ở ranh giới của CDE để kiểm soát lưu lượng vào/ra của CDE.
+- Tiêu chuẩn cấu hình: Xác định các yêu cầu tối thiểu về cách cấu hình NSC.
+
+**_Examples of NSCs_**
+- Firewalls.
+- Routers có Access Control Lists (ACLs).
+- Cloud virtual networks.
