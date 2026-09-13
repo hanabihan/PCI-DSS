@@ -406,7 +406,7 @@ Appendix A1: Additional PCI DSS Requirements for Multi-Tenant Service Providers.
 Appendix A2: Additional PCI DSS Requirements for Entities using SSL/Early TLS for Card-Present POS POI Terminal Connections.
 Appendix A3: Designated Entities Supplemental Validation (DESV).
 ### Xây dựng và duy trì mạng lưới và hệ thống an toàn.
-#### 1. Cài đặt và duy trì các biện pháp kiểm soát an ninh mạng (Network Security Controls).
+#### Requirement 1. Cài đặt và duy trì các biện pháp kiểm soát an ninh mạng (Network Security Controls).
 - Network security controls (NSCs) chẳng hạn như firewalls và các công nghệ bảo mật mạng khác, là những điểm thực thi chính sách mạng (network policy enforcement points). NSCs thường kiểm soát network traffic giữa 2 hoặc nhiều phân đoạn mạng hoặc subnets, dựa trên các policies/rules được định nghĩa trước. Thông thường, NSCs được đặt giữa các môi trường có mức độ bảo mật hoặc mức độ tin cậy khác nhau. Policy enforcement NSC thường hoạt động ở layer 3 của OSI (Network layer).
 - Hiện nay NSC có thể được cung cấp bởi nhiều công nghệ khác nhau, ví dụ:
   - Physical firewall.
@@ -518,3 +518,28 @@ Có thể quy định những gì không được phép hoặc không được c
 - Firewalls.
 - Routers có Access Control Lists (ACLs).
 - Cloud virtual networks.
+
+**1.1.2. Quản lý thay đổi cho kết nối mạng và cấu hình NSC.**
+Tất cả thay đổi đối với các kết nối mạng và cấu hình NCS phải được phê duyệt và quản lý theo quy trình kiểm soát thay đổi được xác định tại Requirement 6.5.1.
+
+**_Customized Approach Objective_**
+Thay đổi đối với các kết nối mạng và NSC không được dẫn đến cấu hình sai, triển khai dịch vụ không an toàn hoặc các kết nối mạng trái phép.
+
+**_Applicability Notes_**
+- Các thay đổi với kết nối mạng bao gồm thêm, xóa và thay đổi kết nối.
+- Các thay đổi với NSC bao gồm những thay đổi liên quan đến chính NSC và những thay đổi liên quan đến các thức hoạt động và chức năng bảo mật.
+
+**_Testing Procedures_**
+- 1.2.2.a: Kiểm tra thủ tục dạng văn bản để xác minh thay đổi kết nối mạng và cấu hình NSC trong quy trình kiểm soát thay đổi chính thức theo 6.5.1.
+- 1.2.2.b: Kiểm tra cấu hình mạng để xác định thay đổi kết nối mạng để phỏng vấn người phụ trách và kiểm tra hồ sơ kiểm soát thay đổi để xác thực chính xác các thay đổi đã được phê duyệt và quản lý quy trình.
+- 1.2.2.c: Kiểm tra cấu hình mạng để xác định thay đổi cấu hình NSC để phỏng vấn người phụ trách và kiểm tra hồ sơ kiểm soát thay đổi để xác minh các thay đổi đã được phê duyệt và quản lý đúng quy trình.
+
+**_Purpose_**
+Quy trình kiểm soát thay đổi có cấu trúc giúp giảm nguy cơ thay đổi NSC phát hiện các lỗ hổng bảo mật.
+
+**_Good Practice_**
+- Những thay đổi phải được phê duyệt trước khi thực hiện bởi người có đủ thẩm quyền và kiến ​​thức để đánh giá tác động.
+- Sau khi thay đổi, phải verify để đảm bảo không có ảnh hưởng xấu đến bảo mật mạng và thay đổi hoạt động đúng như mong đợi.
+- Sau khi được phê duyệt và xác minh thì cập nhật tài liệu mạng để tài liệu phù hợp với cấu hình thực tế.
+
+Mọi thay đổi Network/NSC phải đi qua Change Control.
