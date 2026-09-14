@@ -457,7 +457,7 @@ Requirement 1.1.1 nhằm đảm bảo các policies và procedures trong Require
   - Xác định các điều khiển, phương pháp và quy trình.
   - Đảm bảo kết quả được thực hiện tối ưu và phù hợp với mục tiêu của chính sách.
 
-**1.1.2. Roles and Responsibilities.**
+**1.1.2. Vai trò và trách nhiệm.**
 
 Vai trò và trách nhiệm phải được tài liệu hóa, được phân công và được hiểu rõ.
 
@@ -480,9 +480,9 @@ Nếu phân công không rõ thì nhân sự không biết mình phải làm gì
 - Nên yêu cầu nhân viên xác định họ đã nhận thức và hiểu trách nhiệm.
 - Có thể sử dụng RACI Matrix.
 
-**1.2. Network security controls (NSCs) are configured and maintained.**
+**1.2. Các biện pháp kiểm soát an ninh mạng (NSC) được cấu hình và duy trì.**
 
-**1.2.1. Configuration Standards for NSC Rulesets**
+**1.2.1. Tiêu chuẩn cấu hình cho NSC.**
 
 Các tiêu chuẩn cấu hình cho bộ quy tắc NSC phải:
 - Được định nghĩa.
@@ -529,7 +529,7 @@ Thay đổi đối với các kết nối mạng và NSC không được dẫn �
 - Các thay đổi với kết nối mạng bao gồm thêm, xóa và thay đổi kết nối.
 - Các thay đổi với NSC bao gồm những thay đổi liên quan đến chính NSC và những thay đổi liên quan đến các thức hoạt động và chức năng bảo mật.
 
-**_Testing Procedures_**
+**_Defined Approach Testing Procedures_**
 - 1.2.2.a: Kiểm tra thủ tục dạng văn bản để xác minh thay đổi kết nối mạng và cấu hình NSC trong quy trình kiểm soát thay đổi chính thức theo 6.5.1.
 - 1.2.2.b: Kiểm tra cấu hình mạng để xác định thay đổi kết nối mạng để phỏng vấn người phụ trách và kiểm tra hồ sơ kiểm soát thay đổi để xác thực chính xác các thay đổi đã được phê duyệt và quản lý quy trình.
 - 1.2.2.c: Kiểm tra cấu hình mạng để xác định thay đổi cấu hình NSC để phỏng vấn người phụ trách và kiểm tra hồ sơ kiểm soát thay đổi để xác minh các thay đổi đã được phê duyệt và quản lý đúng quy trình.
@@ -543,3 +543,23 @@ Quy trình kiểm soát thay đổi có cấu trúc giúp giảm nguy cơ thay �
 - Sau khi được phê duyệt và xác minh thì cập nhật tài liệu mạng để tài liệu phù hợp với cấu hình thực tế.
 
 Mọi thay đổi Network/NSC phải đi qua Change Control.
+
+**_1.2.3 – Network Diagram_**
+Phải duy trì sơ đồ mạng chính xác để hiển thị tất cả các kết nối giữa CDE và các mạng khác, bao gồm cả mạng không dây.
+
+**_Customized Approach Objective_**
+Duy trì và có sẵn 1 biểu tượng về ranh giới giữa:
+- CDE.
+- Tất cả các mạng đáng tin cậy.
+- Tất cả các mạng không đáng tin cậy.
+
+**_Applicability Notes_**
+Có thể sử dụng:
+- Sơ đồ mạng hiện tại.
+- Hoặc giải pháp kỹ thuật/cấu trúc liên kết.
+
+**_Defined Approach Testing Procedures_**
+1.2.3.a: Kiểm tra sơ đồ mạng và cấu hình mạng để xác thực sơ đồ chính xác và đáp ứng Requirement.
+1.2.3.b: Kiểm tra tài liệu và nhân viên phỏng vấn để xác thực sơ đồ mạng chính xác và cập nhật khi môi trường có thay đổi.
+
+**_Purpose_**
