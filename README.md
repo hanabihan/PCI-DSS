@@ -520,24 +520,29 @@ Có thể quy định những gì không được phép hoặc không được c
 - Cloud virtual networks.
 
 **1.1.2. Quản lý thay đổi cho kết nối mạng và cấu hình NSC.**
+
 Tất cả thay đổi đối với các kết nối mạng và cấu hình NCS phải được phê duyệt và quản lý theo quy trình kiểm soát thay đổi được xác định tại Requirement 6.5.1.
 
 **_Customized Approach Objective_**
 Thay đổi đối với các kết nối mạng và NSC không được dẫn đến cấu hình sai, triển khai dịch vụ không an toàn hoặc các kết nối mạng trái phép.
 
 **_Applicability Notes_**
+
 - Các thay đổi với kết nối mạng bao gồm thêm, xóa và thay đổi kết nối.
 - Các thay đổi với NSC bao gồm những thay đổi liên quan đến chính NSC và những thay đổi liên quan đến các thức hoạt động và chức năng bảo mật.
 
 **_Defined Approach Testing Procedures_**
+
 - 1.2.2.a: Kiểm tra thủ tục dạng văn bản để xác minh thay đổi kết nối mạng và cấu hình NSC trong quy trình kiểm soát thay đổi chính thức theo 6.5.1.
 - 1.2.2.b: Kiểm tra cấu hình mạng để xác định thay đổi kết nối mạng để phỏng vấn người phụ trách và kiểm tra hồ sơ kiểm soát thay đổi để xác thực chính xác các thay đổi đã được phê duyệt và quản lý quy trình.
 - 1.2.2.c: Kiểm tra cấu hình mạng để xác định thay đổi cấu hình NSC để phỏng vấn người phụ trách và kiểm tra hồ sơ kiểm soát thay đổi để xác minh các thay đổi đã được phê duyệt và quản lý đúng quy trình.
 
 **_Purpose_**
+
 Quy trình kiểm soát thay đổi có cấu trúc giúp giảm nguy cơ thay đổi NSC phát hiện các lỗ hổng bảo mật.
 
 **_Good Practice_**
+
 - Những thay đổi phải được phê duyệt trước khi thực hiện bởi người có đủ thẩm quyền và kiến ​​thức để đánh giá tác động.
 - Sau khi thay đổi, phải verify để đảm bảo không có ảnh hưởng xấu đến bảo mật mạng và thay đổi hoạt động đúng như mong đợi.
 - Sau khi được phê duyệt và xác minh thì cập nhật tài liệu mạng để tài liệu phù hợp với cấu hình thực tế.
@@ -545,21 +550,58 @@ Quy trình kiểm soát thay đổi có cấu trúc giúp giảm nguy cơ thay �
 Mọi thay đổi Network/NSC phải đi qua Change Control.
 
 **_1.2.3 – Network Diagram_**
+
 Phải duy trì sơ đồ mạng chính xác để hiển thị tất cả các kết nối giữa CDE và các mạng khác, bao gồm cả mạng không dây.
 
 **_Customized Approach Objective_**
+
 Duy trì và có sẵn 1 biểu tượng về ranh giới giữa:
 - CDE.
 - Tất cả các mạng đáng tin cậy.
 - Tất cả các mạng không đáng tin cậy.
 
 **_Applicability Notes_**
+
 Có thể sử dụng:
 - Sơ đồ mạng hiện tại.
 - Hoặc giải pháp kỹ thuật/cấu trúc liên kết.
 
 **_Defined Approach Testing Procedures_**
+
 1.2.3.a: Kiểm tra sơ đồ mạng và cấu hình mạng để xác thực sơ đồ chính xác và đáp ứng Requirement.
 1.2.3.b: Kiểm tra tài liệu và nhân viên phỏng vấn để xác thực sơ đồ mạng chính xác và cập nhật khi môi trường có thay đổi.
 
 **_Purpose_**
+
+Duy trì sơ đồ mạng chính xác và cập nhật giúp:
+- Ngăn ngừa việc bỏ sót các kết nối và các thiết bị mạng.
+- Tránh các kết nối và các thiết bị mạng không được quản lý và sẽ dễ bị tấn công.
+- Xác minh phạm vi tuân thủ PCI DSS.
+
+**_Good Practice_**
+
+Sơ đồ mạng sẽ hiển thị tất cả các kết nối vào/ra CDE, bao gồm các hệ thống cung cấp:
+- Dịch vụ bảo mật.
+- Dịch vụ quản lý.
+- Dịch vụ bảo trì.
+
+Nên xem xét đưa vào sơ đồ mạng:
+- Tất cả các địa điểm: địa điểm bán lẻ, trung tâm dữ liệu, địa điểm doanh nghiệp, nhà cung cấp dịch vụ đám mây...
+- Ghi nhãn rõ ràng cho tất cả các phân đoạn mạng.
+- Tất cả các biện pháp kiểm soát bảo mật được sử dụng cho phân đoạn và mã định danh duy nhất (tên, nhà sản xuất, kiểu máy, phiên bản...).
+- Tất cả các thành phần hệ thống nằm trong phạm vi, ví dụ:
+  - NSC.
+  - Tường lửa ứng dụng web.
+  - Phần mềm chống phần mềm độc hại.
+  - Giải pháp quản lý thay đổi.
+  - IDS/IPS.
+  - Hệ thống tổng hợp nhật ký.
+  - Thiết bị đầu cuối thanh toán.
+  - Ứng dụng thanh toán.
+  - HSMs,...
+  
+Sơ đồ mạng nên có:
+- Các khu vực ngoài phạm vi: Đánh dấu các khu vực nằm ngoài phạm vi PCI DSS trên sơ đồ, ví dụ sử dụng hộp bóng mờ hoặc dấu hiệu cơ chế chiến đấu khác.
+- Cập nhật lần cuối: Ghi ngày cập nhật gần nhất.
+- Cập nhật/phê duyệt: Ghi tên người thực hiện cập nhật cập nhật và người phê duyệt.
+- Chú thích/Key: Có chú thích để giải thích các ký hiệu trên sơ đồ.
